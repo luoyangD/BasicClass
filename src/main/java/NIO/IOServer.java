@@ -16,6 +16,6 @@ public class IOServer {
         System.out.println(" 客户端链接成功");
         int read=socket.getInputStream().read(bytes);
         System.out.println(new String(bytes));
-        System.out.println(0);
+        System.out.println("y");
     }
 }
